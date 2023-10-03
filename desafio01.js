@@ -3,9 +3,9 @@
 // Aluno Desenvolvedor: Tiago Azevedo
 
 // Variáveis
-let cavaleiro = ["Seya de Pegasus" , "Shiryu de Dragao" , "Hades" , "Aldebaran de Touro", "Shaka de virgen", "Saori Kido(Atena)"]
-let cosmoCavaleiro = [ 3950, 5030, 6000, 7500, 9999, 1000000 ]
-let ArmaduradoCavaleiro = [" "," "," "," "," "," ",]
+let cavaleiro = ["Sheena de Cobra", "Seya de Pegasus" , "Shiryu de Dragao" , "Aldebaran de Touro", "Shaka de virgen", "Seya de Sagitario","Hades", "Saori Kido(Atena)"]
+let cosmoCavaleiro = [ 1000, 1999, 3950, 5030, 6000, 7500, 9999, 1000000 ]
+let ArmaduradoCavaleiro = [" "," "," "," "," "," "," "," "]
 
 // Aplicacao do uso de laços de repetição
 for ( let i = 0; i < cavaleiro.length; i++){
@@ -40,7 +40,8 @@ for ( let i = 0; i < cavaleiro.length; i++){
         nivel = "Radiante"
     }
 
+
     // Saída
-    console.log(`Seu Cavalheiro e ${nome} Armadura de ${nivel} e explode cosmo em ${xp}`)
+    console.log(`Seu Cavalheiro e ${nome} usando Armadura de ${nivel} e sua explosao de cosmo tem poder de ${xp}`)
 }
 
